@@ -1,0 +1,21 @@
+<h1>
+    Create New Recipe
+</h1>
+<br />
+<div>
+    <h4>Recipe Name</h4>
+    <input #name (keyup)="onKeyName(name.value)" />
+    <p>{{name.value}}</p>
+</div>
+<div>
+    <h4>Steps</h4>
+    <input #step /> <button (click)="addStep(step.value); step.value = ''">Add Step</button>
+    <ol #stepList class="stepList">
+        <li *ngFor="let step of recipe.Steps">
+            {{step.Notes}}
+        </li>
+    </ol>
+</div>
+<div>
+    <button (click)="saveRecipe()">Save Recipe</button>
+</div>

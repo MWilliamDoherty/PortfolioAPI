@@ -1,0 +1,20 @@
+<h1>
+    Select a Recipe
+</h1>
+    <div class="selection">
+        <select #selectedRecipe class="form-control" (change)="checkValue(selectedRecipe.value)">
+            <option selected="selected" value=0>-- Please select a recipe --</option>
+            <option *ngFor="let recipe of recipes" value="{{recipe.id}}">{{recipe.name}}</option>
+        </select>
+    </div>
+    <div class="display" *ngIf = "show">
+        <div class="name">
+            <h3>{{selectedRecipe.value}}</h3>
+        </div>
+        <div class="steps">
+            <ol>
+                <li *ngFor="let step of recipe.Steps" value="{{step.id}}">{{step.notes}}</li>
+            </ol>
+        </div>
+    </div>
+<br/>

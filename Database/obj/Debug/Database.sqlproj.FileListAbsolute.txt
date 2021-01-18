@@ -1,0 +1,10 @@
+C:\Users\Matt\Documents\VS Projects\PortfolioAPI\Database\bin\Debug\Database.dacpac
+C:\Users\Matt\Documents\VS Projects\PortfolioAPI\Database\bin\Debug\Database.dll
+C:\Users\Matt\Documents\VS Projects\PortfolioAPI\Database\bin\Debug\Database.pdb
+C:\Users\Matt\Documents\VS Projects\PortfolioAPI\Database\obj\Debug\Database.sqlprojAssemblyReference.cache
+C:\Users\Matt\Documents\VS Projects\PortfolioAPI\Database\obj\Debug\Model.xml
+C:\Users\Matt\Documents\VS Projects\PortfolioAPI\Database\obj\Debug\refactor.xml
+C:\Users\Matt\Documents\VS Projects\PortfolioAPI\Database\obj\Debug\postdeploy.sql
+C:\Users\Matt\Documents\VS Projects\PortfolioAPI\Database\obj\Debug\predeploy.sql
+C:\Users\Matt\Documents\VS Projects\PortfolioAPI\Database\obj\Debug\Database.dll
+C:\Users\Matt\Documents\VS Projects\PortfolioAPI\Database\obj\Debug\Database.pdb

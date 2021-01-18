@@ -47,7 +47,7 @@ export class OpenPageComponent implements OnInit {
     });
   }
 
-  checkValue(id:number){
+  checkValue(id:string){
     this.show = true;
     this.http.get<Recipe>(this.configUrl + '/api/Recipe/' + id).subscribe(data => {
       this.recipe = data;

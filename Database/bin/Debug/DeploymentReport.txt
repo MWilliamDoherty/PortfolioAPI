@@ -1,0 +1,26 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Actions] (Table)
+       [dbo].[Ingredients] (Table)
+       [dbo].[MeasurementForStep] (Table)
+       [dbo].[Measurements] (Table)
+       [dbo].[MeasurementTypes] (Table)
+       [dbo].[Recipes] (Table)
+       [dbo].[Steps] (Table)
+       Foreign Key: unnamed constraint on [dbo].[MeasurementForStep] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[MeasurementForStep] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Measurements] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Steps] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Steps] (Foreign Key)
+
+** Supporting actions

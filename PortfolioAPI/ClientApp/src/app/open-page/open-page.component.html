@@ -4,7 +4,7 @@
     <div class="selection">
         <select #selectedRecipe class="form-control" (change)="checkValue(selectedRecipe.value)">
             <option selected="selected" value=0>-- Please select a recipe --</option>
-            <option *ngFor="let recipe of recipes" value="{{recipe.id}}">{{recipe.name}}</option>
+            <option *ngFor="let recipe of recipes" value="{{recipe.Id}}">{{recipe.Name}}</option>
         </select>
     </div>
     <div class="display" *ngIf = "show">
@@ -13,7 +13,7 @@
         </div>
         <div class="steps">
             <ol>
-                <li *ngFor="let step of recipe.Steps" value="{{step.id}}">{{step.notes}}</li>
+                <li *ngFor="let step of recipe.Steps" value="{{step.Id}}">{{step.Notes}}</li>
             </ol>
         </div>
     </div>
